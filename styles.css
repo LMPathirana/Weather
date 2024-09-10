@@ -1,0 +1,52 @@
+body {
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    max-width: 1200px;
+  }
+  
+  .card {
+    margin-bottom: 20px;
+  }
+  
+  #map {
+    height: 500px;
+    margin-top: 20px;
+  }
+  
+  #historyWeather {
+    margin-top: 20px;
+  }
+  
+  #error {
+    margin-top: 20px;
+    color: red;
+  }
+  
+  /* Horizontal scrolling for hourly forecast */
+  #hourlyForecast {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+  }
+  
+  #hourlyForecast .card {
+    min-width: 120px; /* Ensure each card has a fixed width */
+  }
+  
+  /* Style for historical weather cards */
+  .history-card {
+    min-width: 180px;
+    margin-right: 10px;
+  }
+  
+  /* Go to Top Button */
+  #goToTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    display: none;
+  }
+  
